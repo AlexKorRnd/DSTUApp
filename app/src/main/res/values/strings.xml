@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DSTUApp</string>
+    <string name="navigation_close">Закрыть навигацию</string>
+    <string name="navigation_open">Открыть навигацию</string>
 </resources>
