@@ -20,4 +20,48 @@
         <item name="colorControlNormal">@android:color/white</item>
     </style>
 
+    <style name="AppWidget" />
+
+    <style name="AppWidget.ClickableText">
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?selectableItemBackground</item>
+    </style>
+
+    <style name="AppWidget.FieldLabel">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppTheme.Caption</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="AppWidget.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:backgroundTint">@color/edit_text_background</item>
+    </style>
+
+    <style name="AppWidget.EditText.Large">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppWidget.TextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+
+    <style name="Main"/>
+
+    <style name="Main.Title">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+
 </resources>

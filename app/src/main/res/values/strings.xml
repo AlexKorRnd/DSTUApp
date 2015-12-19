@@ -2,4 +2,11 @@
     <string name="app_name">DSTUApp</string>
     <string name="navigation_close">Закрыть навигацию</string>
     <string name="navigation_open">Открыть навигацию</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="log_in">Войти</string>
+    <string name="app_title">Журнал преподавателя</string>
+    <string name="dialog.in_developing">В разработке</string>
+    <string name="error.unknown">Авторизация не удалась. Проверьте ваше подключение к интернету</string>
+    <string name="journals">Журналы</string>
 </resources>
